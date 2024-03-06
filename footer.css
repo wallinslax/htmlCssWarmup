@@ -1,0 +1,17 @@
+/* footer.css */
+.blog-footer {
+  display: flex;
+  justify-content: center;
+  background: #f8f9fa;
+  border-top: 1px solid #e1e1e1;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+}
+.blog-footer a {
+  display: inline-block;
+  margin: 0 10px;
+  /* color: #777; */
+  /* text-decoration: none; */
+}

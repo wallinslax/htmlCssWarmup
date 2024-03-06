@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px; /* or whatever max width you prefer */
+}
+
+.content {
+  flex: 3; /* Takes 3 parts of the flex space */
+  padding: 20px;
+}
+
+.post__title {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.post__date {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 2em;
+}
+
+.post__author {
+  color: #0044cc;
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+  margin-top: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-top: 1em;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+  margin-bottom: 1em;
+}
+
+ul li,
+ol li {
+  line-height: 1.6;
+}
+
+pre {
+  background-color: #f5f5f5;
+  padding: 10px;
+  overflow: auto; /* For long code blocks */
+}
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+
+.pagination__prev,
+.pagination__next {
+  background: #f8f8f8;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+}
+
+.pagination__prev:hover,
+.pagination__next:hover {
+  background: #e7e7e7;
+}
+
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  max-width: 300px;
+  /* Additional styling */
+}
+
+.sidebar__section + .sidebar__section {
+  margin-top: 20px;
+}
+
+.sidebar__title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  /* You might need to adjust the font-weight if it's not matching */
+  font-weight: bold;
+}
+
+.sidebar__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar__list li {
+  margin-bottom: 5px; /* Adjust the space between list items */
+}
+
+.sidebar__list li a {
+  /* color: #333; */
+  text-decoration: none; /* Removes the underline from links */
+  font-size: 1em; /* Adjust to match your design */
+  /* You may need to add hover effects */
+}
+
+.sidebar__list li a:hover {
+  text-decoration: underline; /* Adds an underline on hover */
+}
